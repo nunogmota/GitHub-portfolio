@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Ensuring proper rendering and scaling on various devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morpion</title>
+
+    <!-- Link to external CSS file-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Link for the web page's icon -->
+    <link rel="icon" href="/Users/nunomota/Documents/GO/tic tac toe/logo.png " type="image/png">
+
+    <!-- Audio elements for game sounds -->
+    <audio id="clickSound" src="click.mp3"></audio>
+    <audio id="winSound" src="win.mp3"></audio>
+    <audio id="tieSound" src="tie.mp3"></audio>
+</head>
+<body>
+    <div class="container">
+        <h1>Morpion</h1>
+
+        <!-- Container for the game board (to be populated dynamically) -->
+        <div id="board" class="board">
+            <!-- The board will be populated dynamically using JavaScript -->
+        </div>
+        <p id="result"></p>
+
+        <!-- Button to reset the game, with an onclick event handler -->
+        <button id="resetButton" onclick="resetGame()">Recommencer le jeu</button>
+    </div>
+
+    <!-- Linking the JavaScript file for game functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
