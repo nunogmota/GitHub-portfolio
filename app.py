@@ -13,6 +13,6 @@ from flask import Flask, send_from_directory
 
 app = Flask(__name__)
 
-@app.route('tictactoe/background.jpg>')
+@app.route('/tictactoe/background.jpg>')
 def serve_static(filename):
     return send_from_directory('static')
