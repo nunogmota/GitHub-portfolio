@@ -14,7 +14,7 @@
 <body>
     <div class="container mt-5">
         <h1 class="mb-4">Inscription</h1>
-    <form action="biienvenue.php" method="post" enctype="multipart/form-data">
+    <form action="bienvenue.php" method="post" enctype="multipart/form-data">
     <div class="form-group">
     <label for="pseudo">Pseudo :</label>
     <input type="text" class="form-control" name="pseudo" placeholder="Saisir votre pseudo" required>
