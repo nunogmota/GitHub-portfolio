@@ -1,8 +1,7 @@
         /* General styles fo the body */
         body {
             margin: 0;
-            font-family: 'league spartan';
-             /* Background gradient */
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff); 
             background-size: cover; /* background size */
             background-position: center; /* background position */
@@ -106,11 +105,16 @@
         /* Styles for headings */
         h1 {
             color: #fff;
-            text-shadow: 0 0 10px #00bfff;
-            font-size: 48px;
+            text-shadow: 0 0 30px #c0c0c0;      
+
+            font-size: 38px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
         }
 
         /* Styles for paragraphs */
         p {
             font-size: 24px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
         }
